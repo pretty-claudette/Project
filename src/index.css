@@ -1,0 +1,45 @@
+body{
+  background-image: url(assets/shhh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.container {
+    background-color: #ac4617;
+    background-position: fixed;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 50vw;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.clock {
+  color: rgb(237, 239, 241);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
+
+button {
+  padding: 5px 10px;
+  display: inline-flex;
+  gap: 10px;
+  background-color: rgb(173, 49, 18);
+  color:white;
+  border-radius: 10px;
+  cursor:pointer;
+}
